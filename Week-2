@@ -1,0 +1,10 @@
+# Part A: Decision making with conditional statement
+
+# Topic: The if Statement
+age = int(input("Enter your age: "))
+name = str(input("Enter your name: "))
+
+if age < 18:
+            print("You are minor", name)
+else:
+            print("You're an adult", name)
